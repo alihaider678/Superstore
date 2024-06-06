@@ -18,7 +18,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_excel(filename)
 else:
-    os.chdir(r"C:\Users\LENOVO\Downloads\Streamlit")
+    os.chdir(r"https://github.com/alihaider678/Superstore/blob/main/Superstore.xls")
     df = pd.read_excel("Superstore.xls")
 
 
